@@ -1,4 +1,4 @@
-name: MT798X
+name: IPQ53xx
 
 on:
   workflow_dispatch:
