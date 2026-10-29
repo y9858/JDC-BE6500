@@ -28,6 +28,7 @@ git clone --depth 1 https://github.com/nikkinikki-org/OpenWrt-nikki package/Open
 git clone --depth 1 https://github.com/y9858/luci-app-clientstatus package/luci-app-clientstatus
 rm -rf feeds/packages/net/speedtest-cli
 git clone --depth 1 https://github.com/y9858/luci-app-netspeedtest package/luci-app-netspeedtest
+git clone --depth 1 https://github.com/kenzok8/openwrt-honk package/openwrt-honk
 
 # 修改首页显示
 rm -rf feeds/packages/lang/golang
