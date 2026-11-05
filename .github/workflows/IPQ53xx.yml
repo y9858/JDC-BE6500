@@ -42,6 +42,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_environment.sh)'
+        sudo -E apt -yqq install dwarves
         sudo -E apt -yqq install dos2unix
         sudo -E apt -yqq install libfuse-dev
         sudo -E apt -yqq autoremove --purge
